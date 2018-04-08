@@ -10,19 +10,11 @@ Pod::Spec.new do |s|
 
 s.name         = "NSObjectObjCExceptionExtension"
 s.version      = "1.0.0"
-s.summary      = "A short description of NSObjectObjCExceptionExtension."
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-s.description  = <<-DESC
+s.summary      = "Exception of NSObject class used for catching Obj-C exceptions"
 s.homepage     = "https://github.com/premyslvlcek/NSObjectObjCExceptionExtension"
 s.license      = "MIT"
 s.author             = { "Premysl Vlcek" => "premysl.vlcek@strv.com" }
-s.source       = { :git => "https://github.com/premyslvlcek/NSObjectObjCExceptionExtension" }
+s.source       = { :git => "https://github.com/premyslvlcek/NSObjectObjCExceptionExtension.git", :tag => 'v1.0.0' }
 s.source_files  = "NSObjectObjCExceptionExtension/Source"
 s.requires_arc = true
 s.xcconfig = { 'CLANG_MODULES_AUTOLINK' => 'YES', 'OTHER_SWIFT_FLAGS' => "$(inherited) -DGLES"}
